@@ -1,0 +1,64 @@
+{
+    "Admin":{
+        "id01": {
+            "firstName": "Adonay",
+            "lastName": "Eshetu",
+            "role": "SystemsAdmin",
+            "email": "Eshetuadonayad@gmail.com"
+        },
+        "id02": {
+            "firstName": "Tewaido",
+            "LastName": "Samson",
+            "role": "SystemsAdmin",
+            "email": "Tewahido@gmail.com"
+        }
+    },
+    "Movies": {
+        "movie01": {
+            "title": "Eregnaye",
+            "genra": "Comedy",
+            "casts": ["Sayat Demise", "Amanuel Dereje"],
+            "Type": "Series",
+            "director": "Yafet Abebe",
+            "description": "This movie is based on a true story about a girl who was born in the coutry side of Ethiopia.",
+            "ageRestriction": 13,
+            "movieUrl": "movie Location.mp4",
+            "thumbnail": "location of image.jpg",
+            "movieLength": 120,
+            "rating": 2.5
+        },
+        "movie02": {
+            "title": "Yewondoch Guday",
+            "genra": "Comedy",
+            "casts": ["Amiro", "Shewaferaw"],
+            "Type": "Film",
+            "director": "Yafet Abebe",
+            "description": "This movie is based on a true story about a group of guys working in a woodwork shop.",
+            "ageRestriction": 16,
+            "movieUrl": "movie Location.mp4",
+            "thumbnail": "location of image.jpg",
+            "movieLength": 120,
+            "rating": 5
+        }
+    },
+    "Subscriber": {
+        "user01": {
+            "firstName": "Tewaido",
+            "LastName": "Samson",
+            "email": "Tewahido@gmail.com",
+            "dateOfBirth": 199998727,
+            "favorite": [{ "movieId": "movie02"}, { "movieId": "movie01"} ],
+            "watchList": [{ "movieId": "movie02"}, { "movieId": "movie01"} ],
+            "subscription": {"planType": "Premium", "expirationDate": 123456}
+        },
+        "user02": {
+            "firstName": "Tewaido",
+            "LastName": "Samson",
+            "email": "Tewahido@gmail.com",
+            "dateOfBirth": 199998727,
+            "favorite": [{ "movieId": "movie02"}, { "movieId": "movie01"} ],
+            "watchList": [{ "movieId": "movie02"}, { "movieId": "movie01"} ],
+            "subscription": {"planType": "Premium", "expirationDate": 123456}
+        }
+    }
+}
